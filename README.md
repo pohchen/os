@@ -11,7 +11,7 @@ Lab 1
 .c.o:
         @$(CC) $(CFLAGS) -c -o $*.o $<
 ```
-Add Tab in the beginning of line
+Add **Tab** at the beginning of three linea
 
 ```
 make: execvp: tools/build.sh: Permission denied
