@@ -61,6 +61,7 @@ Index: init/main.c
 Index: Makefile
 ```
 Debug using **QEMU** with **gdb tools/system** command in two different window
+
 [osdi@localhost linux-0.11]$ qemu -m 16M -boot a -fda Image -hda ../osdi.img -s -S -serial stdio
 
 
