@@ -1,8 +1,7 @@
-OSDI
+Lab 1
 =============
 
-### Lab 1
-
+### 2.1
 ```
 [osdi@localhost linux-0.11]$ vim Makefile
 .c.s:
@@ -20,6 +19,17 @@ make: *** [Image] Error 127
 ```
 [osdi@localhost linux-0.11]$ chmod tools/build.sh 777
 
-- compiling works well to **Image**
+- Compiling works well to **Image**
 
-### Lab 2
+[osdi@localhost linux-0.11]$ qemu -m 16M -boot a -fda Image -hda ../osdi.img
+
+### 2.2
+
+Hint: Use backtrace command to find the kernel bugs, there are 2 bugs in lab1 linux kernel.
+
+
+
+Lab 2
+=============
+
+
