@@ -67,6 +67,7 @@ Debug using **QEMU** with **gdb** command in two different window (as follows)
 [osdi@localhost linux-0.11]$ gdb tools/system
 
 - [Linux 内核--任务0的调度切换](http://blog.csdn.net/ctthuangcheng/article/details/8803027)
+- [linux 0.11 任务调度schedule](http://blog.csdn.net/ybn187/article/details/25707907)
 
 Lab 2
 =============
